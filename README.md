@@ -1,3 +1,29 @@
+# Fork
+Add additional functionality to the theme such as:
+* Support for Giscus
+
+## Local development
+Requires specific versions of node to run:
+```
+nvm install v18.12.1
+```
+
+In a new directory, install and run local Ghost:
+```
+mkdir ghost; cd ghost
+npm install ghost-cli@latest -g
+ghost install local
+```
+
+To re-run:
+```
+ghost start --no-setup-linux-user
+```
+
+Accessible through:
+* http://localhost:2368
+* http://localhost:2368/ghost
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
