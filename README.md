@@ -8,11 +8,27 @@ Requires specific versions of node to run:
 nvm install v18.12.1
 ```
 
+Local Ghost dev server can be created through Ghost cli:
+```
+npm install ghost-cli@latest -g
+```
+
 In a new directory, install and run local Ghost:
 ```
 mkdir ghost; cd ghost
-npm install ghost-cli@latest -g
 ghost install local
+```
+
+Clone theme to local:
+```
+git clone git@github.com:patrickjennings/blog-jenningsga-casper.git content/themes/blog-jenningsga-casper
+```
+
+Build theme:
+```
+cd content/themes/blog-jenningsga-casper
+yarn install
+yarn dev
 ```
 
 To re-run:
