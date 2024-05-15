@@ -1,6 +1,6 @@
 # Fork
 Add additional functionality to the theme such as:
-* Support for Giscus
+* Support for [Giscus](https://giscus.app/)
 
 ## Local development
 Requires specific versions of node to run:
