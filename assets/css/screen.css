@@ -3042,3 +3042,7 @@ file to add some of your own styles. Well, you've come to
 the right place. Onward!
 
  */
+
+.giscus-frame {
+    margin: 2em 0 0;
+}
